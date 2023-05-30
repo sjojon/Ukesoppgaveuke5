@@ -23,8 +23,24 @@ double salePrice = shirt.CalculateSalePrice();
 Console.WriteLine($"The sale price of the shirt is: {salePrice}");
 Console.WriteLine();
 
+
 ElectronicItem phone = new("iPhone x", 25, 799.99, "1 Year", "5 Volt");
 ElectronicItem.ItemDetails(phone);
 //Console.WriteLine(phone.CalculateSalePrice());
 salePrice = phone.CalculateSalePrice();
 Console.WriteLine($"The sale price of the phone is: {salePrice}");
+Console.WriteLine();
+
+
+ClothingItem jacket = new("Formal Jacket", 12, 179.99, "X-Large", "Black");
+ClothingItem.ItemDetails(jacket);
+salePrice = jacket.CalculateSalePrice();
+Console.WriteLine($"The sale price of the formal jacket is: {salePrice}");
+Console.WriteLine();
+
+
+ElectronicItem tv = new("Samsung 72 inch TV", 32, 1299.99, "5 Years", "230 Volt");
+ElectronicItem.ItemDetails(tv);
+salePrice = tv.CalculateSalePrice();
+Console.WriteLine($"The sale price of the TV is: {salePrice}");
+Console.WriteLine();

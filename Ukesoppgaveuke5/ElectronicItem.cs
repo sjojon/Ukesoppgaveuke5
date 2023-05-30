@@ -32,7 +32,6 @@ namespace Ukesoppgaveuke5
         {
             Console.WriteLine(
                 $"Item: {electronicItem.Name}\nAmount: {electronicItem.Amount}\nPrice: {electronicItem.Price}$\nInsurance: {electronicItem.InsuranceInformation}\nVoltage: {electronicItem.Voltage}");
-            Console.WriteLine();
         }
     }
 }

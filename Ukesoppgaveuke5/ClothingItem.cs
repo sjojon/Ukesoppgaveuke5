@@ -32,7 +32,6 @@ namespace Ukesoppgaveuke5
         {
             Console.WriteLine(
                 $"Item: {clothingItem.Name}\nAmount: {clothingItem.Amount}\nPrice: {clothingItem.Price}$\nSize: {clothingItem.Size}\nColor: {clothingItem.Color}");
-            Console.WriteLine();
         }
     }
 }
