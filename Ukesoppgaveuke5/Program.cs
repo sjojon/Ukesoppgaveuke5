@@ -37,7 +37,7 @@ Console.WriteLine($"The sale price of the formal jacket is: {salePrice}");
 Console.WriteLine();
 
 
-ElectronicItem tv = new("Samsung 72 inch TV", 32, 1299.99, "5 Years", "230 Volt");
+ElectronicItem tv = new("Samsung TV", 32, 1299.99, "5 Years", "230 Volt");
 ElectronicItem.ItemDetails(tv);
 salePrice = tv.CalculateSalePrice();
 Console.WriteLine($"The sale price of the TV is: {salePrice}");
