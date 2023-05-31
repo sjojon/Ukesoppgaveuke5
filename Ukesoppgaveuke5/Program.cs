@@ -18,7 +18,6 @@
 
 ClothingItem shirt = new("Men's T-Shirt", 50, 19.99, "Large", "Blue");
 ClothingItem.ItemDetails(shirt);
-//Console.WriteLine(shirt.CalculateSalePrice());
 double salePrice = shirt.CalculateSalePrice();
 Console.WriteLine($"The sale price of the shirt is: {salePrice}");
 Console.WriteLine();
@@ -26,7 +25,6 @@ Console.WriteLine();
 
 ElectronicItem phone = new("iPhone x", 25, 799.99, "1 Year", "5 Volt");
 ElectronicItem.ItemDetails(phone);
-//Console.WriteLine(phone.CalculateSalePrice());
 salePrice = phone.CalculateSalePrice();
 Console.WriteLine($"The sale price of the phone is: {salePrice}");
 Console.WriteLine();
